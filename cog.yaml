@@ -1,0 +1,10 @@
+build:
+  python_version: "3.11"
+  python_requirements: requirements.txt
+  gpu: true
+  system_packages:
+    - git
+
+predict: "predict.py:Predictor"
+image: "replicate/zeeshan506/echohire-qgen-distilgpt2"
+# cog push r8.im/zeeshan506/echohire-qgen-distilgpt2

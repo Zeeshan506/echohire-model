@@ -1,0 +1,17 @@
+cog.yaml
+.venv/
+.env
+venv/
+.git
+.gitignore
+*.log
+local_inference.py
+main.py
+predict.py
+pyproject.toml
+uv.lock
+snapshot.py
+data.jsonl
+.cog/
+.cog/*
+.python-version
